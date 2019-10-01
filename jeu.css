@@ -1,0 +1,11 @@
+#gameContainer {width: 500px; height: 500px; margin: 0 auto; background-image: url('img/sol.png'); position: relative;}
+
+#player {width: 10%; height: 10%; background-image: url('img/face.png'); background-size: 100%; background-position: center; left: 0; top: 100%; position: absolute; z-index: 99;}
+
+.bomb {background-image: url('img/pokeball.png'); background-size: 100%; background-position: center; width: 9%; height: 9%; margin-left: 1%; margin-top: 1%; border-radius: 100%; position: absolute; z-index: 1;}
+
+.explosion {background-image: url('img/etoile.png'); background-size: 100%; background-position: center; width: 10%; height: 10%; position: absolute; z-index: 1;}
+
+.block {background-image: url('img/tombe.png'); background-size: 100%; background-position: center; background-repeat: no-repeat; width:10%; height:10%; position: absolute; z-index: 1;}
+
+.ennemy {background-image: url('img/spectrumFace2.png'); background-size: 100%; background-position: center; background-repeat: no-repeat; width: 10%; height: 10%; position: absolute; z-index: 99;}
